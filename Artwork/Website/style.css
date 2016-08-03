@@ -1,0 +1,165 @@
+body {
+	text-rendering: optimizeLegibility;
+	font-size: 14px;
+	background-color: #2A89AD;
+	font-family: 'Roboto', sans-serif;
+	color: #fbf7ef;	
+}
+
+a:link {color:#FFFFFF;}      /* unvisited link */
+a:visited {color:#FFFFFF;}  /* visited link */
+a:hover {color:#B4BCBC;}  /* mouse over link */
+a:active {color:#B4BCBC;}  /* selected link */
+
+h1 {
+	font-size: 450%;
+	margin-bottom: 5px;
+	margin-top: 0;
+	padding-top: 15px;
+	text-align: center;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 150%;
+	text-align: center;
+	margin: 0 0 0px 200px;
+	font-weight: 300; 
+}
+
+h1#mobileh1 {
+	font-size: 250%;
+	margin-bottom: 5px;
+	margin-top: 0;
+	padding-top: 15px;
+	text-align: center;
+	font-weight: 100;
+}
+
+h2#mobileh2{
+	font-size: 125%;
+	text-align: center;
+	margin: 0 0 0px 100px;
+	font-weight: 300; 
+}
+
+
+
+p {
+	text-align: center;
+}
+
+p.bottomline {
+	font-size: 13px;
+}
+
+img {
+	margin: auto;
+}
+
+img.mobile_hero{
+	max-width: 80%;
+}
+
+@media screen and (orientation: portrait) {
+  img.mobile_hero {
+      max-width: 90%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  img.mobile_hero {
+      max-height: 90%;
+  }
+}
+
+
+div#contain 
+{ 
+	width: 100%;
+	overflow: visible;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-align:center;
+} 
+
+div#leftdiv 
+{ 
+	display: block;
+	width: 49%;
+	float: left;
+	background: url('frame_bg.png') no-repeat no-repeat;
+	background-size: 100% 100%;
+}
+
+div#leftdiv video {
+	display: block;
+	width: 65%;
+	margin: auto;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
+div#rightdiv 
+{
+	display: block;
+	width: 49%;
+	float: left;
+	background: url('frame_bg_iphone.png') no-repeat no-repeat;
+	background-size: 100% 100%;
+} 
+
+div#rightdiv video {
+	display: block;
+	width: 59%;
+	margin: auto;
+	padding-top: 28%;
+	padding-bottom: 33%;
+}
+
+.clear{
+   clear:both;
+}
+
+img.appstore {
+	display: block;
+	margin: -10% auto 0 auto;
+	height: 40px;
+	position:relative;
+	z-index:1000
+}
+
+
+img.gplay {
+	display: block;
+	margin: -10% auto 0 auto;
+	height: 45px;
+	width: 129px;
+	position:relative;
+	z-index:1000
+}
+
+div#contain_footer
+{ 
+	padding-top: 30px;
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+} 
+
+img.starter {
+	display: inline-block;
+	height: 60px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.copyright {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 90%;
+	font-weight: 300;
+}
