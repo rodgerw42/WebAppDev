@@ -41,7 +41,7 @@ namespace StepCounter.Activities
 		Total = 2
 	}
 
-	[Activity (Label = "@string/menu_history", Icon = "@drawable/ic_launcher", Theme = "@style/ThemeActionBar", ScreenOrientation = ScreenOrientation.Portrait)]			
+	[Activity (Label = "@string/menu_history", Icon = "@drawable/ic_launcher", Theme = "@style/ThemeActionBar", ScreenOrientation = ScreenOrientation.Landscape)]			
 	public class HistoryActivity : Activity, ActionBar.IOnNavigationListener
 	{
 		ListFragment list;
