@@ -13,7 +13,7 @@ namespace StepCounter.Views
             set;
         }
 
-        // This method is invoked when the application is about to move from active to inactive state.
+        // WE CHANGED THIS
         // OpenGL applications should use this method to pause.
         public override void OnResignActivation(UIApplication application)
         {
